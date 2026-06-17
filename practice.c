@@ -8,7 +8,7 @@ int main()
 
    printf("Hello world! \n");
     printf("hello world! \n");
-    
+   
     printf("hello world! \n");
    printf("hello world! \n");
    
@@ -37,6 +37,24 @@ int main()
 // OR ASSIGN THE VALUE TO A VARIABLE
     int sum = a+b;
     printf("the sum is: %d", sum);
+
+//CONDITIONAL STATEMENTS
+//IF / ELSE IF/ELSE
+
+int age;
+printf("type your age: ");
+scanf("%d",&age);
+
+if(age>13 && age<20){
+	printf("teenager");
+}
+
+else if(age<=13){
+	printf("child");
+}
+else{
+    printf("adult");
+}
    
     return 0;
 }
