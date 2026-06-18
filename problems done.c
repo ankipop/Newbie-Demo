@@ -67,7 +67,26 @@ else{
     printf("adult \n");
 }
 
+//P7.PROGRAM TO CHECK NUMBER TYPED BY USER IS POSITIVE 
+//AND IF POSITIVE IS IT EVEN OR ODD	
+	
+int number;
+printf("type your number: \n");
+scanf("%d",&number);
 
+if(number >= 0){
+  printf("number is positive \n");
+  if(number%2==0){
+    printf("number is even \n");
+    }
+  else{
+  printf("number is odd \n");
+  }
+ } 
+  
+else { 
+  printf("number is negaive \n");
+} 
     
     return 0;
 }
