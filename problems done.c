@@ -102,7 +102,14 @@ else if(ch<='a' && ch>='z'){
 else{
   printf("not alphabets \n");
 }
-	
+//P9.PRINT NUMBERS AS MANY USER WANTS FROM 1
+
+int n;
+printf("till how much do u want to print numbers: ");
+scanf("%d",&n);
+for(int t=1;t<=n;t+=1){
+  printf("%d \n", t);
+}	
     
     return 0;
 }
