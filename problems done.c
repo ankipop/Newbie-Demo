@@ -110,6 +110,14 @@ scanf("%d",&n);
 for(int t=1;t<=n;t+=1){
   printf("%d \n", t);
 }	
-    
+//P10.WRITE A PROGRAM TO PRINT HELLO WORLD AS MANY TIMES AS USER WANTS	
+
+int d;
+printf("no of times u wanna print hello world: ");
+scanf("%d",&d);
+for(int i=1;i<=d;i=i+1){
+  printf("hello world! \n");
+}
+	
     return 0;
 }
