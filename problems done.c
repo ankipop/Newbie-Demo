@@ -87,6 +87,22 @@ if(number >= 0){
 else { 
   printf("number is negaive \n");
 } 
+// P8.WRITE A PROGRAM TO FIND IF A CHARACTER IS UPPERCASE OR NOT
+
+char ch;
+printf("enter your character: ");
+scanf("%c",&ch);
+if(ch >= 'A'&& ch<= 'Z'){
+  printf("uppercase \n");
+}
+else if(ch<='a' && ch>='z'){
+  printf("lowercase \n");
+}
+
+else{
+  printf("not alphabets \n");
+}
+	
     
     return 0;
 }
