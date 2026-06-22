@@ -87,5 +87,15 @@ switch(day_no){
 
   default : printf("not a valid day! \n");
 } 
+
+//LOOP CONTROL 
+//FOR(INITIANLISATION;CONDITION;UPDATION){}
+
+int d;
+printf("no of times u wanna print hello world: ");
+scanf("%d",&d);
+for(int i=1;i<=d;i=i+1){
+  printf("hello world! \n");
+}	
     return 0;
 }
