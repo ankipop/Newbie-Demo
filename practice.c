@@ -110,6 +110,19 @@ int d=5;
 printf("%d \n", d);
 printf("%d \n",d--);//USE THEN DECREASE (POST DECREMENT)
 printf("%d \n",--d);//DECREASE THEN USE (PRE DECREMENT)
-	
+
+//WHILE(CONDITION){}
+//PRINT A CHARACTER AS USER WANTS AS MANY TIMES
+char ch;
+printf("what to print: ");
+scanf("%c", &ch);
+int d;
+printf("how many times to print: ");
+scanf("%d",&d);
+int i=1;
+while(i <= d){
+  printf("%c \n",ch);
+  i+=1;
+}	
 	return 0
 }
