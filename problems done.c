@@ -129,5 +129,19 @@ while(i<=n){
   printf("%d \n", i);
   i=i+1;
 }	
+
+//P12.PRINT A CHARACTER AS USER WANTS AS MANY TIMES
+	
+char ch;
+printf("what to print: ");
+scanf("%c", &ch);
+int d;
+printf("how many times to print: ");
+scanf("%d",&d);
+int i=1;
+while(i <= d){
+  printf("%c \n",ch);
+  i++;
+}	
     return 0;
 }
