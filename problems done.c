@@ -212,5 +212,20 @@ for( ;n%2==0; ){
     }
 }
 printf("THANK YOU");
+
+//IN WHILE
+
+int n;
+while(1){
+  printf("type your number: ");
+  scanf("%d", &n);
+  printf("%d \n", n);
+  if(n%2!=0){
+    break;
+  }
+}
+printf("THANK YOU");
+
+	
     return 0;
 }
