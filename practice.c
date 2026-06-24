@@ -123,6 +123,23 @@ int i=1;
 while(i <= d){
   printf("%c \n",ch);
   i+=1;
-}	
+}
+
+//DO{}WHILE(CONDITION);
+
+int n;
+printf("how many numbers: ");
+scanf("%d",&n);
+int i=1;
+do{
+  printf("%d \n", i);
+  i++;
+}while(i<=n);
+printf("AND IN REVERSE \n");
+do{
+  printf("%d \n", n);
+  n--;
+}while(n>=1);
+	
 	return 0
 }
