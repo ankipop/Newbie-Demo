@@ -144,7 +144,7 @@ while(i <= d){
   i++;
 }	
 
-//P14.WRITE A CODE TO PRINT NUMBERS TILL USER WANTS AND IN REVERSE TOO
+//P13.WRITE A CODE TO PRINT NUMBERS TILL USER WANTS AND IN REVERSE TOO
 
 int n;
 printf("how many numbers: ");
@@ -159,6 +159,44 @@ do{
   printf("%d \n", n);
   n--;
 }while(n>=1);
+
+//P14.PRINT TABLE OF NUMBER GIVEN BY USER
+
+//IN FOR
+
+int n;
+printf("your number: ");
+scanf("%d", &n);
+for(int i=1;i <= 10;i++){
+  printf("%d",n);
+  printf(" × %d", i);
+  printf(" =%d  \n", n*i );
+}
+
+//IN WHILE
+
+int n;
+printf("your number: ");
+scanf("%d", &n);
+int i=1;
+while(i<=10){
+  printf("%d", n);
+  printf("×%d=",i);
+  printf("%d \n",i*n);
+  i++;
+}
+
+//IN DO WHILE
+int n;
+printf("your number: ");
+scanf("%d", &n);
+int i=1;
+do{
+  printf("%d", n);
+  printf("×%d=",i);
+  printf("%d \n",i*n);
+  i++;
+}while(i<=10);
 	
     return 0;
 }
