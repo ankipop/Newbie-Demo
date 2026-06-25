@@ -244,3 +244,11 @@ printf("THANK YOU");
 	
     return 0;
 }
+
+void printhello(){
+   printf("hello world! \n");
+}
+
+void printgoodbye(){
+  printf("goodbye! \n");
+}
