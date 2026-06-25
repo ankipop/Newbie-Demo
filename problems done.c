@@ -241,6 +241,13 @@ do{
   printf("%d \n", n);
 }while(n%2==0);
 printf("THANK YOU");
+
+
+
+
+
+
+	
 	
     return 0;
 }
@@ -251,4 +258,14 @@ void printhello(){
 
 void printgoodbye(){
   printf("goodbye! \n");
+}
+void namaste(){
+  printf("namaste \n");
+}
+void bonjur(){
+  printf("bonjur \n");
+}
+
+int sum(int a,int b){
+  return a+b;
 }
