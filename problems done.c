@@ -225,7 +225,15 @@ while(1){
   }
 }
 printf("THANK YOU");
+// IN DO WHILE
 
+int n;
+do{
+  printf("type your number: ");
+  scanf("%d", &n);
+  printf("%d \n", n);
+}while(n%2==0);
+printf("THANK YOU");
 	
     return 0;
 }
