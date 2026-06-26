@@ -153,5 +153,23 @@ for( ;n%2==0; ){
     }
 }
 printf("THANK YOU");
+
+//CONTINUE
+//PRINT ALL  NUMBERS TILL USER WISHES EXCEPT FOR THE ONE USER TYPES
+
+int n;
+printf("type till number: ");
+scanf("%d", &n);
+  
+int e;
+printf("type your number dont want: ");
+scanf("%d", &e);
+
+for(int i=1;i<=n;i++){
+printf("%d \n",i);
+  if(i==e){
+  continue;   //IGNORES THIS AND GOES BACK TO TYE LOOP
+}
+	
 	return 0
 }
