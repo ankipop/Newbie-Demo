@@ -315,6 +315,18 @@ do{
   printf("%d \n", i);
 }while(i<=e);
 
+//18.PRINT FACTORIAL OF A NUMBER N
+
+int n;
+printf("type your number: ");
+scanf("%d", &n);
+int p=1;
+
+//IN FOR
+for(int i=1;i<=n;i++){
+  p=p*i;
+}  
+printf("%d \n", p);
 	
     return 0;
 }
