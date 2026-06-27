@@ -260,7 +260,26 @@ printf("%d \n",i);
   continue;
 }
 
+//17.PRINT ALL NUMBERS FROM START TO END EXCEPT ODD NUMS
 
+int s;
+int e;
+printf("type start: ");
+scanf("%d", &s);
+printf("type end: ");
+  scanf("%d", &e);
+ 
+  
+//IN FOR  
+  
+
+int i=s;
+for( ;i<=e;i++){
+  if(i%2!=0){
+    continue;
+  }
+  printf("%d \n", i);
+}
 
 
 	
