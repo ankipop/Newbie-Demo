@@ -293,7 +293,18 @@ for( ;i<=e;i++){
   }
 }
 
-	
+//IN WHILE
+
+int i=s-1;
+while(i<=e){
+  i++;
+  if(i%2!=0){
+    continue;
+  }
+  printf("%d \n", i);
+}	
+
+
 	
     return 0;
 }
