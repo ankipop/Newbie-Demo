@@ -281,6 +281,17 @@ for( ;i<=e;i++){
   printf("%d \n", i);
 }
 
+//OR 	
+	
+int i=s;
+for( ;i<=e;i++){
+  if(i%2==0){
+    printf("%d \n", i);
+  }
+  else{
+  continue;
+  }
+}
 
 	
 	
