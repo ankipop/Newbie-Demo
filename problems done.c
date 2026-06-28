@@ -327,6 +327,16 @@ for(int i=1;i<=n;i++){
   p=p*i;
 }  
 printf("%d \n", p);
+
+//IN WHILE
+int i=1;
+while(i<=n){
+  p=p*i;
+  i++;
+}
+printf("%d \n", p);	
+
+
 	
     return 0;
 }
