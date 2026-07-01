@@ -365,7 +365,9 @@ while(i>=1){
   printf("%d \n", i*n);
   i--;
 }
-//P19.WRITE A PROGRAM TO CHECK IF A NUMBER IS ARMSTRONG NUMBER OR NOT
+	
+//20.WRITE A PROGRAM TO CHECK IF A NUMBER IS ARMSTRONG NUMBER OR NOT
+
 int n;
 printf("Type your number: ");
 scanf("%d", &n);
